@@ -16,7 +16,7 @@ async function getSports() {
     filter: {
       "and": [
         {
-          "property": "Sports",
+          "property": "InitStart",
           "select": {
             "is_not_empty": true
           }
